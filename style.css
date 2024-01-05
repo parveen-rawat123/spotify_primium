@@ -1,0 +1,757 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* box sizing :border-box :- it;s mean when we assign 200px height and 200px width for a element in this 200px padding and border are include not only element height and width .  */
+/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+/* margin collapse :- sometime two element margin collapse into a single margin than max margin will be work . */
+/* This does not happen on left and right margins! Only top and bottom margins */
+/* by using text decoration: "underline" property  and use "overline" assign underline in our text */
+/* NOTE:- css outline dont take up a sapce this not a part of box model and it is depand on border   */
+
+
+/* header css */
+/* header first css start   */
+#laguage {
+    height: 55px;
+    width: 100%;
+    background-color: rgb(29, 117, 222);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#laguage .hindienglish {
+    color: white;
+    font-size: 15px;
+
+
+}
+
+#laguage>button {
+    color: white;
+    background-color: rgb(29, 117, 222);
+    font-size: 20px;
+    border: transparent;
+    font-weight: bold;
+    padding: 0px 0px 0px 650px;
+}
+
+/* top header css end here */
+
+.the_header {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img {
+    height: 80px;
+    width: 40%;
+
+}
+
+.the_header .img {
+    padding: 20px 20px;
+}
+
+
+
+.navbaar ul {
+    padding: 15px 0px;
+
+}
+
+.navbaar ul li {
+    font-size: 20px;
+    display: inline;
+}
+
+.navbaar ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.navbaar ul li i {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.navbaar ul li a #profile {
+    padding: auto;
+}
+
+.navbaar ul li :hover {
+    color: rgb(38, 200, 38);
+}
+
+/* body css strated */
+.the_body {
+    height: 480px;
+    width: 100%;
+    background-color: rgb(29, 117, 222);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+/* bro use child seclator (>) */
+.the_body_item {
+    line-height: 75px;
+    padding-top: 30px;
+}
+
+.the_body_item #button_1 {
+    height: 48px;
+    width: 160px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.the_body_item #button_1:hover {
+    height: 52px;
+    width: 164px;
+    font-size: 16px;
+}
+
+.the_body_item #button_2 {
+    height: 48px;
+    width: 190px;
+    background-color: rgb(29, 117, 222);
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.the_body_item #button_2:hover {
+    height: 52px;
+    width: 192px;
+    font-size: 16px;
+}
+
+.the_body_item>h2 {
+    font-size: 39px;
+    color: white;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.the_body_item #para {
+    font-size: 25px;
+    color: white;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.the_body_item #para_2 {
+    color: white;
+    font-size: 11px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+
+}
+
+#para_2 a {
+    color: white;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+/* first div css complite */
+
+/* second div css start */
+.the_body2 {
+    height: 570px;
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.086);
+}
+
+.the_body2>h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.the_body_item2 {
+    height: 300px;
+    width: 89%;
+    margin: 75px 84px;
+    display: flex;
+}
+
+.div_item {
+    text-align: center;
+    height: 296px;
+    width: 298px;
+
+}
+
+.div_item>h3 {
+    padding-top: 37px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+
+}
+
+.div_item>p {
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+/* thired div css start */
+.the_third_div {
+    height: 970px;
+    width: 100%;
+    background-color: rgb(238, 242, 245);
+    padding: 75px 0px;
+    box-shadow: 0cm;
+}
+
+.the_third_div h2 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -1.6px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+
+}
+
+.top_of_div p {
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 12px 0px;
+}
+
+.the_flex {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.the_flex>img {
+    margin: 6px;
+    height: 18px;
+    width: auto;
+}
+
+.the_main_div {
+    height: 720px;
+    width: 90%;
+    margin: 18px 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.the_main_divitem {
+    height: 545px;
+    width: 23%;
+    box-shadow: 2px 2px 10px 2px #8888;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+
+.the_main_divitem .top_div {
+    height: 200px;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.the_main_divitem .top_div :first-child {
+    border: 1px solid rgb(13, 114, 234);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 10px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    color: rgb(13, 114, 234);
+
+}
+
+.the_main_divitem .top_div>h3 {
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    padding: 4px;
+}
+
+.the_main_divitem .top_div>p {
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.the_main_divitem>hr {
+    margin: 0px 17px;
+}
+
+.the_main_divitem .buttom_div {
+    height: 342px;
+    width: 100%;
+    padding: 15px 10px;
+    position: relative;
+}
+
+.the_main_divitem .buttom_div>p {
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: -27px 20px 5px 30px;
+    font-weight: 600;
+
+
+}
+
+
+.the_main_divitem .buttom_div>button {
+    height: 50px;
+    width: 90%;
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: absolute;
+    top: 230px;
+    margin: 0px 5px;
+
+}
+
+.the_main_divitem .buttom_div>button>a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.the_main_divitem .buttom_div>a {
+    position: absolute;
+    top: 290px;
+    color: rgba(49, 47, 47, 0.929);
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+/******************
+ last div css
+ ******************/
+.the_main_div>.last_one {
+    height: 80px;
+    width: 66%;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px #8888;
+    margin: 25px 190px;
+    padding: 25px 30px;
+
+}
+
+.the_main_div>.last_one>.h3 {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    float: left;
+    font-weight: bold;
+
+}
+
+.the_main_div>.last_one>.the_span>button {
+    border: 2px solid black;
+    height: 45px;
+    border-radius: 30px;
+    width: 150px;
+    float: right;
+    background-color: white;
+}
+
+.the_main_div>.last_one>.the_span>button>a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 10px;
+}
+
+/* second div css */
+.top_div_two {
+    height: 200px;
+    width: 100%;
+    padding: 15px 15px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+
+}
+
+.the_main_divitem .top_div_two :nth-child(1) {
+    background-color: rgb(13, 114, 234);
+    border: 1px solid rgb(13, 114, 234);
+    color: white;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.the_main_divitem .top_div_two :nth-child(2) {
+    color: rgb(13, 114, 234);
+    border: 1px solid rgb(13, 114, 234);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 2px 5px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 7px 7px;
+    margin: 7px 0px;
+
+}
+
+.the_main_divitem .top_div_two :nth-child(3) {
+    font-size: 27px;
+    padding: 4px;
+    letter-spacing: 1px;
+}
+
+.the_main_divitem .top_div_two :nth-child(4) {
+    margin: 7px 0px;
+    font-size: 16px;
+}
+
+
+.the_main_divitem .butttom_div_two {
+    width: 100%;
+    height: 345px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 20px 20px;
+}
+
+.the_main_divitem .butttom_div_two p {
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: -27px 0px 5px 30px;
+    font-weight: 600;
+}
+
+.the_main_divitem .butttom_div_two button {
+    height: 50px;
+    width: 98%;
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-top: 73px;
+
+}
+
+.the_main_divitem .butttom_div_two button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 10px;
+}
+
+.the_main_divitem .butttom_div_two #lastanchor {
+    font-size: 12px;
+    color: gray;
+    margin: 8px 0px 0px 0px;
+}
+
+.the_main_divitem .butttom_div_two #lastanchor>a {
+    color: gray;
+}
+
+/*************************
+   thired wali div ki css 
+   *************************/
+.top_div_three {
+    height: 200px;
+    width: 100%;
+    padding: 15px 15px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.top_div_three #monthfree {
+    background-color: rgb(13, 114, 234);
+    border: 1px solid rgb(13, 114, 234);
+    color: white;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.top_div_three #available {
+    color: rgb(13, 114, 234);
+    border: 1px solid rgb(13, 114, 234);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 2px 5px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 7px 7px;
+    margin: 7px 0px;
+}
+
+.top_div_three>h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.top_div_three #last {
+    margin: 7px 0px;
+    font-size: 16px;
+}
+
+.buttom_div_three {
+    width: 100%;
+    height: 345px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 20px 20px;
+}
+
+.buttom_div_three p {
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: -27px 0px 5px 30px;
+    font-weight: 600;
+}
+
+.buttom_div_three button {
+    height: 50px;
+    width: 98%;
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-top: 21px;
+}
+
+.buttom_div_three button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 10px;
+}
+
+.buttom_div_three #lastanchor2 {
+    font-size: 12px;
+    color: gray;
+    margin: 8px 0px 0px 0px;
+}
+
+.buttom_div_three #lastanchor2 a {
+    color: gray;
+}
+
+/* fourth wali div ki css */
+.top_div_fourth {
+    height: 200px;
+    width: 100%;
+    padding: 15px 15px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.top_div_fourth #fouthpara {
+    color: rgb(13, 114, 234);
+    border: 1px solid rgb(13, 114, 234);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 2px 5px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 7px 7px;
+    margin: 7px 0px;
+}
+
+.top_div_fourth h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.top_div_fourth #fouthpara2 {
+    margin: 7px 0px;
+    font-size: 16px;
+}
+
+.buttom_div_fourth {
+    width: 100%;
+    height: 345px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 20px 20px;
+}
+
+.buttom_div_fourth p {
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: -27px 0px 5px 30px;
+    font-weight: 600;
+}
+
+.buttom_div_fourth button {
+    height: 50px;
+    width: 98%;
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-top: 13px;
+}
+
+.buttom_div_fourth button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 10px;
+}
+
+.buttom_div_fourth #lastpara {
+    font-size: 12px;
+    color: gray;
+    margin: 8px 0px 0px 0px;
+}
+
+.buttom_div_fourth #lastpara a {
+    color: gray;
+}
+
+/******************************** the foooter*********************/
+
+.footer {
+    height: 86vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+}
+
+.firstbox {
+    height: 60vh;
+    width: 83vw;
+    position: relative;
+    top: 85px;
+    left: 125px;
+    display: flex;
+}
+
+.firstbox .footeritem {
+    height: 60vh;
+    width: 36vh;
+}
+
+.firstbox .footeritem>ul {
+    list-style: none;
+    color: white;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.firstbox .footeritem #greyli {
+    color: gray;
+    font-size: 14px;
+}
+
+.firstbox .footeritem>ul>li:hover {
+    color: rgb(58, 206, 58);
+}
+
+.firstbox #hojabhai {
+    padding: 10px;
+    text-align: end;
+
+}
+
+.firstbox #hojabhai>.fa-brands {
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 17px;
+    background-color: #222326;
+}
+
+.firstbox #hojabhai>.fa-brands:hover {
+    background-color: rgb(58, 206, 58);
+    ;
+}
+
+.lastfirstfooter {
+    height: 40px;
+    width: 85%;
+    position: relative;
+    top: 50px;
+    color: gray;
+    text-align: end;
+    font-size: 13px;
+    margin-left: 100px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.lastfirstfooter>span {
+    padding-left: 10px;
+}
+
+.lastfirstfooter>span:hover {
+    color: rgb(65, 215, 65);
+
+}
+
+.lastfooter {
+    height: 40px;
+    width: 85vw;
+    position: relative;
+    top: 50px;
+    margin-left: 100px;
+}
+
+.lastfooter ul {
+    list-style: none;
+    display: flex;
+    color: grey;
+    font-size: 13px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+
+
+}
+
+.lastfooter ul>li {
+    padding: 10px;
+}
+
+.lastfooter ul>li:hover {
+    color: rgb(65, 215, 65);
+}
+
+.lastfooter>p {
+    color: gray;
+    font-size: 13px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    text-align: end;
+}
