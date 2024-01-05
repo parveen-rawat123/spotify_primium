@@ -6,16 +6,7 @@
 }
 
 
-/* box sizing :border-box :- it;s mean when we assign 200px height and 200px width for a element in this 200px padding and border are include not only element height and width .  */
-/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
-/* margin collapse :- sometime two element margin collapse into a single margin than max margin will be work . */
-/* This does not happen on left and right margins! Only top and bottom margins */
-/* by using text decoration: "underline" property  and use "overline" assign underline in our text */
-/* NOTE:- css outline dont take up a sapce this not a part of box model and it is depand on border   */
 
-
-/* header css */
-/* header first css start   */
 #laguage {
     height: 55px;
     width: 100%;
