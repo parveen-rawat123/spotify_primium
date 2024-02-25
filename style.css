@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 
 #laguage {
@@ -41,7 +44,6 @@
     background-color: black;
     display: flex;
     justify-content: space-around;
-
 }
 
 .img {
@@ -743,4 +745,9 @@
     font-size: 13px;
     font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
     text-align: end;
+}
+@media only screen and (max-width:900px) {
+
+
+
 }
